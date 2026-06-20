@@ -1,466 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monir Hossain Sagor - Portfolio</title>
+    <title>Monir Hossain Sagor | Systems Architect</title>
     <link rel="shortcut icon" href="./assets/images/website-icon.png" type="image/png">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- Cyber-Blueprint Dynamic Background Grid Grid -->
+    <div class="blueprint-overlay"></div>
+
+    <!-- Asymmetric Header Platform -->
     <header class="header">
-        <div class="header-wrapper d-flex">
-            <div class="col-w2 ht">
-                <div class="header-left d-flex">
-                    <a class="logo d-flex" href="./index.html">
-                        <img src="./assets/images/logo.png" alt="logo">
-                    </a>
-                </div>
-            </div>
-            <div class="col-w8">
-                <div class="header-center d-flex">
-                    <nav class="mainmenu-nav">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#skill">Skills</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                        </ul>
-                    </nav>
-                    <div class="header-right d-flex">
-                        <div class="live-chat-btn">
-                            <a class="btn" href="">Live Chat</a>
-                        </div>
-                        <div id="hamburger" class="hamburger">
-                            <i class='bx bx-menu'></i>
-                        </div>
-                    </div>
+        <div class="header-container">
+            <a class="logo" href="#home">
+                <span class="logo-term">engr</span>monir<span class="logo-tld">.com</span>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">// Core</a></li>
+                    <li><a href="#about" class="nav-link">// Identity</a></li>
+                    <li><a href="#skills" class="nav-link">// Matrix</a></li>
+                    <li><a href="#portfolio" class="nav-link">// Canvas</a></li>
+                    <li><a href="#experience" class="nav-link">// Chronology</a></li>
+                    <li><a href="#contact" class="nav-link">// Pipeline</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a class="terminal-btn btn-primary" href="#contact">Execute Contact</a>
+                <div id="hamburger" class="hamburger-toggle">
+                    <i class='bx bx-grid-alt'></i>
                 </div>
             </div>
         </div>
     </header>
-    <nav class="pop-mainmenu">
+
+    <!-- Mobile Navigation Panel Overlay -->
+    <nav class="mobile-nav-overlay">
+        <div class="close-mobile-menu"><i class='bx bx-terminal'></i> Close</div>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skill">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="#home">Core</a></li>
+            <li><a href="#about">Identity</a></li>
+            <li><a href="#skills">Matrix</a></li>
+            <li><a href="#portfolio">Canvas (10 Projects)</a></li>
+            <li><a href="#experience">Chronology</a></li>
+            <li><a href="#contact">Pipeline</a></li>
         </ul>
     </nav>
-    <div class="root">
-        <main class="main-page-wrapper container">
-            <!-- Home-Start -->
-            <div id="home" class="home-sec d-flex">
-                <div class="col col-w6">
-                    <div class="hold">
-                        <h2>WELCOME TO MY CODING WORLD</h1>
-                            <h1>Hi, I'm <span>Monir</span> <br><span>Android App</span> Developer</h1>
-                            <p>I am a professional app developer. I have been developing mobile applications since one year ago. I do mobile
-                            application development as well as web application development.</p>
-                            <div class="btn-container">
-                                <div class="box">
-                                    <a class="btn" href="#contact">Hire Me</a>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <div class="col col-w4 d-flex">
-                    <div class="photo-frame d-flex">
-                        <img src="./assets/images/man-1.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- Home-End -->
-        
-            <!-- About-Start -->
-            <div id="about" class="about-sec m-tp">
-                <div class="d-flex-o">
-                    <div class="photo-frame">
-                        <div class="box d-flex-o">
-                            <img src="./assets/images/man-2.jpg" alt="monir-hossain-photo">
-                        </div>
-                    </div>
-                </div>
-                <div class="h d-flex-o">
-                    <div class="text-container">
-                        <h1>About Me</h1>
-                        <p>I am a professional app developer. I have been developing mobile applications since 1 year ago. I do mobile application
-                        development as well as web application development. I have published an app on the play store and the app is still I am
-                        doing maintenance.
-                        </p>
-                        <div class="btn-container">
-                            <div class="box">
-                                <a class="btn" href="#contact">Download CV</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- About-End -->
-        
-            <div id="skill" class="skill-sec m-tp">
-                <h1>About My Skill</h1>
-                <div class="cards">
-                    <div class="card">
-                        <div class="box d-flex">
-                            <div class="frame d-flex">
-                                <img src="./assets/images/app-development.jpg" alt="">
-                            </div>
-                            <h2>App Development</h2>
-                        </div>
-                        <div class="box">
-                            <ul class="skills">
-                                <li>
-                                    <!-- <img src="./assets/images/icon-android.png" alt=""> -->
-                                    <spna>Android Apps</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-material-design.png" alt=""> -->
-                                    <spna>Flutter Apps</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-firebase.png" alt=""> -->
-                                    <spna>Firebase</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-rest-api.png" alt=""> -->
-                                    <spna>Rest API</spna>
-                                </li>
-                            </ul>
-                            <div class="btn-c">
-                                <a class="cst-btn" href="">
-                                    <div class="d-flex">
-                                        <span>Read More</span><i class='bx bx-right-arrow-circle'></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="box d-flex">
-                            <div class="frame d-flex">
-                                <img src="./assets/images/front-end.jpg" alt="">
-                            </div>
-                            <h2>Web Development</h2>
-                        </div>
-                        <div class="box">
-                            <ul class="skills">
-                                <li>
-                                    <!-- <img src="./assets/images/icon-android.png" alt=""> -->
-                                    <spna>Front-End</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-material-design.png" alt=""> -->
-                                    <spna>Back-End</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-firebase.png" alt=""> -->
-                                    <spna>React</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-rest-api.png" alt=""> -->
-                                    <spna>Node JS</spna>
-                                </li>
-                            </ul>
-                            <div class="btn-c">
-                                <a class="cst-btn" href="">
-                                    <div class="d-flex">
-                                        <span>Read More</span><i class='bx bx-right-arrow-circle'></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="box d-flex">
-                            <div class="frame d-flex">
-                                <img src="./assets/images/ux-design.png" alt="">
-                            </div>
-                            <h2>UI/UX Design</h2>
-                        </div>
-                        <div class="box">
-                            <ul class="skills">
-                                <li>
-                                    <!-- <img src="./assets/images/icon-android.png" alt=""> -->
-                                    <spna>Website</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-material-design.png" alt=""> -->
-                                    <spna>App</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-firebase.png" alt=""> -->
-                                    <spna>Adobe XD</spna>
-                                </li>
-                                <li>
-                                    <!-- <img src="./assets/images/icon-rest-api.png" alt=""> -->
-                                    <spna>Figma</spna>
-                                </li>
-                            </ul>
-                            <div class="btn-c">
-                                <a class="cst-btn" href="">
-                                    <div class="d-flex">
-                                        <span>Read More</span><i class='bx bx-right-arrow-circle'></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-            </div>
-        
-            <div id="portfolio" class="portfolio-sec m-tp">
-                <h1>My Portfolio</h1>
-                <div class="cards">
-                    <div class="card">
-                        <div class="box">
-                            <div class="photo-frame d-flex">
-                                <img src="./assets/images/portfolio-1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box d-flex">
-                            <h2>APP DEVELOPMENT</h2>
-                            <div class="b d-flex">
-                                <img src="./assets/images/icon-love.svg" alt="">
-                                <span>20</span>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h3>Money Store BD</h3>
-                            <div class="abc d-flex">
-                                <img src="./assets/images/icon-love.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="box">
-                            <div class="photo-frame d-flex">
-                                <img src="./assets/images/my-website.JPG" alt="">
-                            </div>
-                        </div>
-                        <div class="box d-flex">
-                            <h2>Web Development</h2>
-                            <div class="b d-flex">
-                                <img src="./assets/images/icon-love.svg" alt="">
-                                <span>0.4K</span>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h3>Dark Bloger - Bloging site</h3>
-                            <div class="abc d-flex">
-                                <img src="./assets/images/icon-love.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="box">
-                            <div class="photo-frame d-flex">
-                                <img src="./assets/images/graphics-design-photo.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box d-flex">
-                            <h2>APP DEVELOPMENT</h2>
-                            <div class="b d-flex">
-                                <img src="./assets/images/icon-love.svg" alt="">
-                                <span>1K</span>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h3>The service provide for design</h3>
-                            <div class="abc d-flex">
-                                <img src="./assets/images/icon-love.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <div id="blog" class="blog-sec m-tp">
-                <h1>My Blog</h1>
-        
-                <div class="cards">
-                    <!-- card start -->
-                    <div class="card">
-                        <div class="box">
-                            <div class="photo-frame d-flex">
-                                <img src="./assets/images/graphics-design-photo.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box d-flex">
-                            <h2>APP DEVELOPMENT</h2>
-                            <span>Mar 21, 2020</span>
-                        </div>
-                        <div class="box">
-                            <h3>The service provide for design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero recusandae eius, incidunt in
-                                quod!</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="box">
-                            <div class="photo-frame d-flex">
-                                <img src="./assets/images/graphics-design-photo.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box d-flex">
-                            <h2>APP DEVELOPMENT</h2>
-                            <span>Mar 21, 2020</span>
-                        </div>
-                        <div class="box">
-                            <h3>The service provide for design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero recusandae eius, incidunt in
-                                quod!</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="box">
-                            <div class="photo-frame d-flex">
-                                <img src="./assets/images/graphics-design-photo.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box d-flex">
-                            <h2>APP DEVELOPMENT</h2>
-                            <span>Mar 21, 2020</span>
-                        </div>
-                        <div class="box">
-                            <h3>The service provide for design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero recusandae eius, incidunt in
-                                quod!</p>
-                        </div>
-                    </div>
-                    <!-- card end -->
-        
-                    <!-- Explore All Blogs Start -->
-                    <div class="card">
-                        <a class="contain d-flex" href="#home">
-                            <div class="explore d-flex">
-                                <i class='bx bx-right-arrow-alt bx-tada'></i>
-                                <span>Explore All Blogs</span>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- Explore All Blogs End -->
-                </div>
-        
-            </div>
-        
-            <div id="contact" class="contact-sec m-tp">
-                <h1>Contact With Me</h1>
-                <div class="c-cards">
-                    <div class="c-card ">
-                        <div class="c">
-                            <h2>Monir Hossain Sagor</h2>
-                            <p>I am available for freelance work. Connect with me via and call in to my account.<br><br>Phone:
-                                <a href="tel:01782031153">+01782031153</a><br>Email: <a
-                                    href="mailto:sagorhossain092@gmail.com">sagorhossain092@gmail.com</a></p>
-                            <div class="social-media-link">
-                                <span>FIND WITH ME</span>
-                                <div class="icons">
-                                    <a href="" class="icon"><i class='bx bxl-facebook'></i></a>
-                                    <a href="" class="icon"><i class='bx bxl-linkedin'></i></a>
-                                    <a href="" class="icon"><i class='bx bxl-instagram'></i></a>
-                                    <a href="" class="icon"><i class='bx bxl-github'></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="c-card">
-                        <h3>Send Message</h3>
-                        <form class="input-form" action="https://www.facebook.com" method="post">
-        
-                            <div class="input-wrapper d-flex">
-                                <div class="input-field">
-                                    <label for="name">YOUR NAME</label>
-                                    <input id="name" name="name" type="text" placeholder="Name">
-                                </div>
-        
-                                <div class="input-field">
-                                    <label for="phone">PHONE</label>
-                                    <input id="phone" name="phone" type="text" placeholder="Phone">
-                                </div>
-                            </div>
-        
-                            <div class="input-field">
-                                <label for="email">EMAIL ADDRESS</label>
-                                <input id="email" name="email" type="text" placeholder="Email">
-                            </div>
-        
-                            <div class="input-field">
-                                <label for="subject">SUBJECT</label>
-                                <input id="subject" name="subject" type="text" placeholder="Subject">
-                            </div>
-        
-                            <div class="input-field massege">
-                                <label for="message">YOUR MESSAGE</label>
-                                <textarea id="message" name="message" placeholder="Message" cols="10" rows="5"></textarea>
-                            </div>
-        
-                            <div class="btn-container">
-                                <div class="box">
-                                    <input name="submit" class="btn" id="submit" value="Sumbit" type="submit">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </main>
-        
-        <footer class="footer container">
-            <div class="f-c-container">
-                <div class="col">
-                    <h1>Contact</h1>
-                    <ul class="lists">
-                        <li class="list">
-                            <i class='bx bxs-home'></i>
-                            <a href="">Mirpur, Dhaka, Bangladesh</a>
-                        </li>
-                        <li class="list">
-                            <i class='bx bxl-gmail'></i>
-                            <a href="">sagorhossain092@gmail.com</a>
-                        </li>
-                        <li class="list">
-                            <i class='bx bxs-phone'></i>
-                            <a href="">+01782031153</a>
-                        </li>
-                    </ul>
-                </div>
-        
-                <div class="col">
-                    <h3>Site Roadmap</h3>
-                    <ul>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Live Chat</a></li>
-                    </ul>
-                </div>
-        
-                <div class="col">
-                    <div class="social-media-link">
-                        <span>FIND ME</span>
-                        <div class="icons">
-                            <a href="" class="icon"><i class='bx bxl-facebook'></i></a>
-                            <a href="" class="icon"><i class='bx bxl-linkedin'></i></a>
-                            <a href="" class="icon"><i class='bx bxl-instagram'></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <h2>Copyright © 2020 <a href="https://www.codeframeit.com/">CodeFrameIT.</a> All rights reserved.</h2>
-            </div>
-        </footer>
-    </div>
-    
 
-    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <!-- Main Content Root Canvas -->
+    <main class="root-wrapper">
+
+        <!-- Command Core Hero Section -->
+        <section id="home" class="hero-section container">
+            <div class="hero-canvas-grid">
+                <div class="hero-left-pane">
+                    <div class="console-tag"><span class="blink">●</span> LIVE SYSTEMS STABILITY RUNNING</div>
+                    <h1 class="hero-giant-title">Architecting <span class="text-glow">High-Performance</span> Mobile
+                        Infrastructure.</h1>
+                    <p class="hero-abstract">
+                        I am Monir Hossain Sagor, a Mobile Systems Engineer. I transform clean code paradigms
+                        into low-latency cross-platform realities. By combining Clean Architecture with decoupled state
+                        trees, I write resilient applications designed to scale cleanly across standard mobile layers.
+                    </p>
+                    <div class="action-dock">
+                        <a class="btn-primary" href="#contact"><i class='bx bx-terminal'></i> Establish Handshake</a>
+                        <a class="btn-secondary" href="#portfolio">Compile Project Logs</a>
+                    </div>
+                </div>
+                <div class="hero-right-pane">
+                    <div class="isometric-bento-preview">
+                        <div class="iso-card layer-1">
+                            <div class="card-bar"><span></span><span></span><span></span></div>
+                            <code class="code-line"><span class="c-key">import</span> 'package:bloc/bloc.dart';</code>
+                            <code class="code-line"><span class="c-val">class</span> SystemsArchitect {}</code>
+                        </div>
+                        <div class="iso-card layer-2">
+                            <div class="metric-flex">
+                                <span class="m-val">8+</span>
+                                <span class="m-lbl">Production Apps<br>Deployed</span>
+                            </div>
+                        </div>
+                        <div class="iso-card layer-3">
+                            <img src="./assets/images/man-1.png" alt="Monir Profile Artifact">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Identity / Profile Metric Section -->
+        <section id="about" class="about-section container">
+            <div class="section-banner">
+                <h2 class="glitch-title" data-text="IDENTITY LOGS">// IDENTITY LOGS</h2>
+            </div>
+            <div class="identity-bento-grid">
+                <div class="bento-box bio-box">
+                    <h3>Systems Analysis</h3>
+                    <p>
+                        With over 3 years of hands-on production leadership engineering core application models, my
+                        architectural design philosophy centers on eliminating layout bottlenecks, lowering structural
+                        coupling, and enforcing strict data-layer modularity.
+                    </p>
+                    <p>
+                        From continuous integration loops (Codemagic, GitHub Actions) to micro-insurances, asset
+                        streaming pipelines, and low-latency WebRTC video consultations, I build production-ready mobile
+                        systems designed for absolute structural stability.
+                    </p>
+                </div>
+                <div class="bento-box stats-box">
+                    <div class="stat-node">
+                        <span class="node-num">08+</span>
+                        <span class="node-txt">App Store & Play Store Production Deployments</span>
+                    </div>
+                    <div class="stat-node">
+                        <span class="node-num">03+</span>
+                        <span class="node-txt">Years of Professional Enterprise Lifecycles</span>
+                    </div>
+                </div>
+                <div class="bento-box info-dock-box">
+                    <h3>Metadata Schema</h3>
+                    <div class="metadata-stream">
+                        <div class="meta-row"><span class="m-key">ENGINEER:</span><span class="m-value">Monir Hossain
+                                Sagor</span></div>
+                        <div class="meta-row"><span class="m-key">LOCATION:</span><span class="m-value">Dhaka,
+                                Bangladesh</span></div>
+                        <div class="meta-row"><span class="m-key">ENDPOINTS:</span><span
+                                class="m-value">sagorhossain092@gmail.com</span></div>
+                        <div class="meta-row"><span class="m-key">ACADEMICS:</span><span class="m-value">B.Sc in CSE |
+                                DIU</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All 10 Projects Bento Canvas Section -->
+        <section id="portfolio" class="portfolio-section container">
+            <div class="section-banner">
+                <h2 class="glitch-title" data-text="ENGINEERING CANVAS">// ENGINEERING CANVAS (10 CORE BLOCKS)</h2>
+                <p class="section-subtitle">Comprehensive code portfolio extracted from production runtime logs[cite:
+                    2].</p>
+            </div>
+
+            <div class="canvas-bento-grid">
+
+                <!-- Project 1: Stayverz (Hero Row-Span) -->
+                <div class="bento-card span-hero-wide" style="--accent-border: var(--accent-cyan)">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">engrmonir.com/prod/stayverz</span>
+                        <span class="sys-date">AUG 2025</span>
+                    </div>
+                    <div class="card-bento-body">
+                        <div class="bento-content-split">
+                            <div>
+                                <h3 class="proj-title">Stayverz Platform</h3>
+                                <p class="proj-desc">Designed and deployed a modern short-term rental ecosystem
+                                    featuring live spatial listing data sync, deep link navigation trees, and complex
+                                    multi-gateway checkouts.</p>
+                                <div class="tech-pill-dock">
+                                    <span>Flutter</span><span>GetX</span><span>MVVM</span><span>WebSocket</span><span>Firebase</span><span>Google
+                                        Maps</span>
+                                </div>
+                            </div>
+                            <div class="bento-metric-pane">
+                                <span class="bento-badge">Real-Time Routing</span>
+                                <div class="terminal-mock">
+                                    <span class="t-green">$ ws.connect("wss://stayverz.com/live")</span>
+                                    <span class="t-white">➔ Connection Synchronized</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: TopperOn (Vertical Span) -->
+                <div class="bento-card span-tall" style="--accent-border: #ffcb2c">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/topperon</span>
+                        <span class="sys-date">MAY 2025</span>
+                    </div>
+                    <div class="card-bento-body flex-col">
+                        <h3 class="proj-title">TopperOn EdTech</h3>
+                        <p class="proj-desc">High-load educational platform supporting live classes, secure
+                            examinations, interactive learning systems, and high-performance offline encrypted file
+                            allocation pools.</p>
+                        <div class="terminal-mock mini">
+                            <span class="t-yellow">Video Cache Controller Initialized</span>
+                        </div>
+                        <div class="tech-pill-dock push-down">
+                            <span>Flutter</span><span>Bloc</span><span>Firebase</span><span>Video
+                                Caching</span><span>Google Auth</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: HR Connect (Standard Box) -->
+                <div class="bento-card" style="--accent-border: #3ddc84">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/hr-connect</span>
+                        <span class="sys-date">MAR 2025</span>
+                    </div>
+                    <div class="card-bento-body flex-col">
+                        <h3 class="proj-title">HR Connect</h3>
+                        <p class="proj-desc">HR framework engineered with deep background location systems, real-time
+                            tracking accuracy adjustments, and algorithmic automated leave structures.</p>
+                        <div class="tech-pill-dock push-down">
+                            <span>Bloc</span><span>Background Location</span><span>Maps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Savoy SR (Standard Box) -->
+                <div class="bento-card" style="--accent-border: #ff3d71">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/savoy-sr</span>
+                        <span class="sys-date">MAR 2024</span>
+                    </div>
+                    <div class="card-bento-body flex-col">
+                        <h3 class="proj-title">Savoy SR</h3>
+                        <p class="proj-desc">Automated field sales app engineered for distributor management, real-time
+                            route path planning, and dual-mode automated database synchronization loops.</p>
+                        <div class="tech-pill-dock push-down">
+                            <span>GetX</span><span>Background Geofence</span><span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Apar's Classroom (Wide Span) -->
+                <div class="bento-card span-wide" style="--accent-border: #a600ff">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/apars-classroom</span>
+                        <span class="sys-date">FEB 2024</span>
+                    </div>
+                    <div class="card-bento-body">
+                        <div class="bento-content-split">
+                            <div>
+                                <h3 class="proj-title">Apar's Classroom Platform</h3>
+                                <p class="proj-desc">Scalable online academy supporting live and recorded courses,
+                                    granular learning metrics tracking, and specialized media player cache pools.</p>
+                                <div class="tech-pill-dock">
+                                    <span>Flutter</span><span>GetX</span><span>Video Layering</span><span>Secure
+                                        Storage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Purno Health (Hero Row-Span) -->
+                <div class="bento-card span-hero-wide" style="--accent-border: #00ff66">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">engrmonir.com/prod/purno-health</span>
+                        <span class="sys-date">JAN 2024</span>
+                    </div>
+                    <div class="card-bento-body">
+                        <div class="bento-content-split">
+                            <div>
+                                <h3 class="proj-title">Purno Health Telemedicine Portal</h3>
+                                <p class="proj-desc">Telemedicine application delivering low-latency WebRTC video
+                                    consulting channels, native micro-insurance claims processing loops, and deep-link
+                                    notifications matrixing.</p>
+                                <div class="tech-pill-dock">
+                                    <span>WebRTC Core</span><span>GetX</span><span>MVVM
+                                        Architecture</span><span>Firebase Streams</span><span>Localization</span>
+                                </div>
+                            </div>
+                            <div class="bento-metric-pane">
+                                <span class="bento-badge status-green">Live Infrastructure</span>
+                                <div class="terminal-mock">
+                                    <span class="t-green">WebRTC Peer Connection Established</span>
+                                    <span class="t-white">Latency Check: 42ms // Normalized</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: Health Plus (Standard Box) -->
+                <div class="bento-card" style="--accent-border: #007aff">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/health-plus</span>
+                        <span class="sys-date">OCT 2023</span>
+                    </div>
+                    <div class="card-bento-body flex-col">
+                        <h3 class="proj-title">Health Plus Suite</h3>
+                        <p class="proj-desc">Digital healthcare runtime engine handling on-demand text consultations,
+                            billing configurations, content maps, and automated multi-channel push updates.</p>
+                        <div class="tech-pill-dock push-down">
+                            <span>GetX</span><span>SMS Auto-Fill</span><span>Realtime DB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: Gulf Oil (Standard Box) -->
+                <div class="bento-card" style="--accent-border: #ff9500">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/gulf-oil</span>
+                        <span class="sys-date">APR 2023</span>
+                    </div>
+                    <div class="card-bento-body flex-col">
+                        <h3 class="proj-title">Gulf Oil Portal</h3>
+                        <p class="proj-desc">Dealership network dashboard designed for direct enterprise interaction,
+                            offering rapid hardware QR scanners and low-level in-app updates.</p>
+                        <div class="tech-pill-dock push-down">
+                            <span>QR Code Layer</span><span>Dynamic Links</span><span>Engine Sync</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9: Smart Dokani (Wide Span) -->
+                <div class="bento-card span-wide" style="--accent-border: #00e5ff">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/smart-dokani</span>
+                        <span class="sys-date">JAN 2023</span>
+                    </div>
+                    <div class="card-bento-body">
+                        <div class="bento-content-split">
+                            <div>
+                                <h3 class="proj-title">Smart Dokani Offline POS Engine</h3>
+                                <p class="proj-desc">Retail POS system featuring real-time offline transactional
+                                    management, local multi-role relational schemas via SQLite, and rapid dynamic
+                                    billing.</p>
+                                <div class="tech-pill-dock">
+                                    <span>Flutter</span><span>GetX Architecture</span><span>SQLite
+                                        Core</span><span>Cloud Sync Pipelines</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10: Smart HRM (Standard Box) -->
+                <div class="bento-card" style="--accent-border: #7000ff">
+                    <div class="card-terminal-header">
+                        <span class="sys-path">/prod/smart-hrm</span>
+                        <span class="sys-date">SEP 2022</span>
+                    </div>
+                    <div class="card-bento-body flex-col">
+                        <h3 class="proj-title">Smart HRM Platform</h3>
+                        <p class="proj-desc">Enterprise HR platform featuring biometric tracking emulation, geo-fenced
+                            operations via background listeners, and core personnel telemetry charts.</p>
+                        <div class="tech-pill-dock push-down">
+                            <span>GetX Matrix</span><span>Google Maps API</span><span>Telemetry</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Technical Skills / Matrix System -->
+        <section id="skills" class="skills-section container">
+            <div class="section-banner">
+                <h2 class="glitch-title" data-text="SKILLS MATRIX">// SKILLS MATRIX</h2>
+            </div>
+            <div class="matrix-grid">
+                <div class="bento-box matrix-node">
+                    <div class="node-header"><i class='bx bxl-flutter'></i> Mobile Frameworks</div>
+                    <p>Flutter (Advanced), Android Native (Java/Kotlin), iOS Platform Compilations, Cross-Platform UI/UX
+                        Engine Optimization.</p>
+                </div>
+                <div class="bento-box matrix-node">
+                    <div class="node-header"><i class='bx bx-git-branch'></i> State & Design</div>
+                    <p>Bloc, Cubit, Provider, GetX, Clean Architecture, Dependency Injection (GetIt, Injectable), MVVM
+                        and MVC Paradigms.</p>
+                </div>
+                <div class="bento-box matrix-node">
+                    <div class="node-header"><i class='bx bx-server'></i> Protocols & Cloud</div>
+                    <p>RESTful APIs, GraphQL, WebSockets, WebRTC Realtime consultation, Firebase Ecosystems, Supabase
+                        Engine Integration.</p>
+                </div>
+                <div class="bento-box matrix-node">
+                    <div class="node-header"><i class='bx bx-hdd'></i> Cache & Storage</div>
+                    <p>SQLite Layering, Hive Key-Value Engines, ObjectBox Multi-Thread databases, Secure Storage
+                        Kernels.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chronology Section -->
+        <section id="experience" class="experience-section container">
+            <div class="section-banner">
+                <h2 class="glitch-title" data-text="TIMELINE LOGS">// TIMELINE LOGS</h2>
+            </div>
+            <div class="custom-timeline">
+                <div class="timeline-block">
+                    <div class="time-marker">2023 - 2026</div>
+                    <div class="bento-box timeline-content-box">
+                        <h3>Software Engineer</h3>
+                        <span class="institution">Supernova Techno Ltd.</span>
+                        <p>Led cross-platform architectures using Clean Architecture models, oversaw production build
+                            pipelines, deployed 8+ mobile apps, and established code standards.</p>
+                    </div>
+                </div>
+                <div class="timeline-block">
+                    <div class="time-marker">2022 - 2023</div>
+                    <div class="bento-box timeline-content-box">
+                        <h3>Junior Software Engineer</h3>
+                        <span class="institution">Smart Software Ltd.</span>
+                        <p>Engineered core functional states for fintech and internal operational frameworks, minimizing
+                            layouts redraw overhead.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section / Pipeline -->
+        <section id="contact" class="contact-section container">
+            <div class="section-banner">
+                <h2 class="glitch-title" data-text="COMMUNICATION PIPELINE">// COMMUNICATION PIPELINE</h2>
+            </div>
+            <div class="contact-canvas-grid">
+                <div class="bento-box contact-meta-panel">
+                    <h3>Secure Directives</h3>
+                    <p>Initiate direct systems consultation channels or review full network metrics.</p>
+                    <div class="terminal-link-node">
+                        <i class='bx bxs-phone'></i>
+                        <span>+880 1782031153</span>
+                    </div>
+                    <div class="terminal-link-node">
+                        <i class='bx bxs-envelope'></i>
+                        <span>sagorhossain092@gmail.com</span>
+                    </div>
+                    <div class="terminal-social-dock">
+                        <a href="https://github.com/Monir528" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://linkedin.com/in/monir-hossain-sagor" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+                <div class="bento-box contact-interactive-panel">
+                    <form class="terminal-form" action="#" method="POST">
+                        <div class="form-grid-2">
+                            <input type="text" placeholder="Sender Identity" required>
+                            <input type="email" placeholder="Return Email Path" required>
+                        </div>
+                        <input type="text" placeholder="Transmission Subject" required>
+                        <textarea rows="4" placeholder="Payload Message Content..." required></textarea>
+                        <button type="submit" class="btn-primary">Compile & Dispatch Transmission</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Platform Footer -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div>
+                <h3>engrmonir.com</h3>
+                <p>Advanced Mobile Engineering Lab &copy; 2026</p>
+            </div>
+            <div>
+                <p>Compiled via modern CSS Canvas Grid Architecture.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
